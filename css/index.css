@@ -1,0 +1,590 @@
+/* 总的大盒子的模型 */
+.all{
+	width:1920px;
+	height:2466px;
+	background-color: rgba(243,245,247,1);
+}
+
+/* 第一个盒子的模型 */
+.header{
+	height:101px;
+}
+/* 雪梨在线 完成*/
+.logo{
+	margin-left: 369px;
+	float: left;
+	width:170px;
+	height:39px;
+	font-size:40px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(0,164,255,1);
+	margin-top: 27px;
+}
+/* 导航 三个超链接*/
+.nav{
+	float: left;
+	margin-top: 42px;
+	margin-left: 71px;
+}
+.nav a:hover{
+	border-bottom: 2px solid rgba(0,164,255,1);
+}
+.nav li{
+	float: left;
+	width: 82px;
+	text-align: center;
+	font-size:18px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+}
+.nav .last{
+	width: 127px;
+}
+.nav a{
+	color:rgba(5,5,5,1);
+}
+/* 搜索框 */
+.form{
+	float: left;
+	margin-left: 138px;
+	margin-top: 31px;
+}
+.form .search{
+	width:70px;
+	height:15px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(191,191,191,1);
+	line-height:31px;
+	float: left;
+	padding: 13px 322px 12px 19px;
+	border: 1px solid rgba(0,164,255,1);
+}
+.form .submit{
+	float: left;
+	width:50px;
+	height:40px;
+	border: 1px solid rgba(0,164,255,1);
+	background: rgba(0,164,255,1) url(../img/fa-search.png) no-repeat center center;
+	cursor: pointer;
+}
+:focus {
+	outline: none;
+}
+/* 个人中心 */
+.finally{
+	margin-left: 31px;
+	margin-top: 44px;
+	float: left;
+	width:60px;
+	height:12px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(102,102,102,1);
+}/* 第二块 */
+.IT {
+	height: 420px;
+	width: 2000px;
+	background: rgba(28,3,108,1);
+}
+.attract {
+	height: 420px;
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.php {
+	position: absolute;
+}
+.develop {
+	height: 420px;
+	width: 190px;
+	margin-left: -50px;
+	position: relative;
+	background: rgba(0,0,0,0.3);    
+}
+.content {
+	height: 365px;
+	width: 101px;
+	padding-top: 27px;
+	padding-left: 20px;
+	line-height: 44px;
+}
+
+.content a {
+	color: #FFFFFF;
+}
+.content a {
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: Microsoft YaHei;
+}
+.content a:hover {
+	color: #00B4FF;
+}
+.demo {
+	position: absolute;
+	right: 0;
+}
+/* 精品推荐 第三块*/
+.xiugai {
+  width: 1200px;
+  height: 60px;
+  position: relative;
+  margin: 0 auto;
+  background: rgba(255,255,255,1);
+  box-shadow: 0px 2px 3px 0px rgba(118,118,118,0.2);
+}
+.xiugai>.xingqu {
+  top: 21px;
+position:absolute;
+}
+.xiugai>.xingqu>.interest {
+width: 125px;
+text-align: center;
+display: inline-block;
+}
+.int{
+  color: #00A4FF;
+}
+.interst>a:hover {
+  color: #00A4FF;
+}
+.interest {
+  border-right: 1px solid #BFBFBF;
+}
+.gaibian {
+  top: 21px;
+  right: 61px;
+  color: #00A4ff;
+  position: relative;
+  margin-left: 1100px;
+}
+/* 第四块*/
+.point{
+  height: 55px;
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.title6{
+  width: 80px;
+  height: 19px;
+  margin-top: 32px;
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(73,73,73,1);
+  position: absolute;
+  font-family: Microsoft YaHei;
+}
+.title7{
+  margin-top: 32px;
+  margin-left: 1100px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #A5A5A5;
+  position: absolute;
+  font-family: Microsoft YaHei;
+}
+/* 第五块 */
+.photo {
+  height: 585px;
+  width: 1230px;
+  margin: 0 auto;
+}
+.photo .hezi {
+  height: 270px;
+  width: 228px;
+  margin-top: 15px;
+  margin-left: 14px;
+  margin-bottom: 15px;
+  background:rgba(255,255,255,1);
+  box-shadow: 0px 2px 5px 0px;
+  position: relative;
+  display: inline-block;
+}
+.tupian {
+  height: 155px;
+  width: 228px;
+}
+.mingcheng {
+  height: 34px;
+  width: 185px;
+  top: 179px;
+  left: 23px;
+  position: absolute;
+}
+.high {
+  float: left;
+  width: 40px;
+  height: 20px;
+  margin-left: 23px;
+  padding-top: 75px;
+  font-size: 12px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: rgba(255,124,45,1);
+}
+.human {
+  top: 231px;
+  left: 60px;
+  color: #767676;
+  font-size: 12px;
+  position: absolute;
+  font-family:Microsoft YaHei;
+}
+.leading {
+  height: 60px;
+  width: 1200px;
+  position: relative;
+  margin: 0 auto;
+}
+.leading>.kaifa {
+  top: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family:Microsoft YaHei;
+  color: rgba(73,73,73,1);
+  position: absolute;
+}
+.list {
+  top: 44px;
+  left: 432px;
+  width: 430px;
+  position: absolute;
+}
+.list>a:hover {
+  color: #00A4FF;
+}
+.list>a {
+  margin-right: 68px;
+  color: #868686;
+}
+.quanbu {
+  top: 43px;
+  right: 0;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: Microsoft YaHei;
+  color: rgba(165,165,165,1);
+  position: absolute;
+}
+.fangkuai {
+  height: 300px;
+  width: 1230px;
+  margin: 0 auto;
+}
+.fangkuai>.picture {
+  height: 270px;
+  width: 228px;
+  margin-top: 15px;
+  margin-left: 14px;
+  margin-bottom: 15px;
+  display: inline-block;
+  position: relative;
+  background: rgba(255,255,255,1);
+  box-shadow: 0px 2px 5px 0px rgba(118,118,118,0.5);
+}
+.niuren {
+  height: 90px;
+  width: 1200px;
+  line-height: 90px;
+  margin: 0 auto;
+}
+.niuren>p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Microsoft YaHei;
+  color: rgba(73,73,73,1);
+}
+.handsome {
+  height: 340px;
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.biyeji {
+  height: 322px;
+  width: 472px;
+  position: relative;
+}
+.jiefang {
+  left: 26px;
+  margin-top: -220px;
+  line-height: 36px;
+  color: rgba(249,225,3,1);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Microsoft YaHei;
+  position: relative;
+}
+.huali {
+  top: 135px;
+  left: 26px;
+  line-height: 36px;
+  position: absolute;
+  font-size: 30px;
+  color: #FFFFFF;
+  font-family: Microsoft YaHei;
+}
+.dianji {
+  height: 25px;
+  width: 88px;
+  left: 27px;
+  margin-top: 40px;
+  position: relative;
+  border: 2px solid #F9E103;
+  text-align: center;
+}
+/* 第六块 */
+.title9{
+  height: 60px;
+  width: 1200px;
+  position: relative;
+  margin: 0 auto;
+}
+.title9>.exploit{
+  top: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family:Microsoft YaHei;
+  color: rgba(73,73,73,1);
+  position: absolute;
+}
+.list9{
+      top: 44px;
+      left: 432px;
+      width: 430px;
+      position: absolute;
+    }
+.list9>a:hover {
+      color: #00A4FF;
+    }
+.list9>a{
+  margin-right: 68px;
+  color: #868686;
+}
+.all9{
+  top: 43px;
+  right: 0;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: Microsoft YaHei;
+  color: rgba(165,165,165,1);
+  position: absolute;
+}
+/* 第七块 */
+
+/* 第八块 */
+.recommend2{
+	width: 1920px;
+	height: 87px;
+	
+	margin-left: 0px;
+	margin-top: 35px;
+}
+.title3{
+	width:80px;
+	height:19px;
+	font-size:20px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(73,73,73,1);
+	float: left;
+}
+/* 第九块 */
+.show3{
+	background-color: rgba(243,245,247,1);
+	width:471px;
+	height:320px;
+}
+.left{
+	width:471px;
+	height:320px;
+	/* margin-left:359px;  */
+	float: left;
+	position: relative;
+}
+.lefta{
+	width:471px;
+	height:320px;
+	top: 99px;
+	left: 25px;
+	position: absolute;
+}
+.left1{
+	font-size:30px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(249,225,3,1);
+	line-height:36px;
+	height: 322px;
+    width: 472px;
+    position: absolute;
+}
+.left2{
+	font-size:27px;
+	font-family:Microsoft YaHei;
+	font-weight: regular;
+	color:#fff;
+	line-height:36px;
+	position: absolute;
+}
+.left3{
+	width:87px;
+	height:25px;
+	border: 1px solid #F9E103;
+	margin-top: 173px;
+	margin-left: 28px;
+	position: absolute;
+}
+.left4{
+	top: 73px;
+	left: 28px;
+	font-size:13px;
+	font-family:Microsoft YaHei;
+	font-weight:400;	
+	line-height:20px;
+	margin-top: 4px;
+	margin-left: 17px;
+	/* position: absolute; */
+}
+.left4 a{
+	color:rgba(249,225,3,1);
+}
+.right{
+    display: inline-block;
+    float: left;
+    margin-left: 15px;
+    width:228px;
+	height:320px;
+	position: relative;
+}
+ .right1{
+	width:108px;
+	height:18px;
+	color: #fff;
+	position: relative;
+	bottom: 0;
+	top: 219px;
+	left: 29px;
+}
+.right2{
+	font-size:18px;
+	font-family:MicrosoftYaHei-Bold;
+	font-weight:bold;	
+	line-height:20px;
+	float: left;
+	position: relative;
+}
+.right3{
+	font-size:14px;
+	font-family:MicrosoftYaHei;
+	font-weight:regular;	
+	line-height:20px;
+	float: right;
+	position: relative;
+}
+ .right4{
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+	line-height:20px;
+	position: relative;
+	bottom: 0;
+} 
+
+/* 第十块底部*/
+.footer{
+	width:1917px;
+	height:417px;
+	/* background:rgba(255,255,255,1); */
+}
+/* .footer ul {
+    display: inline-block;
+} */
+.one{
+	float: left;
+}
+.a{
+	font-size:36px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(0,164,255,1);
+	line-height:21px;
+	margin-top: 124px;
+	margin-left: 380px;
+	display: inline-block;
+}
+.b{
+	font-size:12px;
+	font-family:SimSun;
+	font-weight:400;
+	color:rgba(102,102,102,1);
+	line-height:18px;
+	margin-top: 35px;
+	margin-left: 382px;
+}
+.c{
+	width:120px;
+	height:36px;
+	border: 1px solid rgba(0,164,255,1);
+	margin-top: 33px;
+	margin-left: 381px;
+}
+.d{
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(0,164,255,1);
+	line-height:18px;
+	margin-top: 10px;
+	margin-left: 27px;
+}
+.d a{
+	color:rgba(0,164,255,1);
+}
+.second{
+	float: left;
+	padding-top: 129px;
+	padding-left:273px; 
+}
+.f{
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	line-height:21px;
+}
+.e{
+	font-size:12px;
+	font-family:SimSun;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	line-height:21px;
+	padding-top: 15px;
+}
+.third{
+	float: left;
+	padding-top: 130px;
+	padding-left:164px; 
+}
+.h{
+	font-size:12px;
+	font-family:SimSun;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	line-height:21px;
+	padding-top: 14px;
+}
+.forth{
+	float: left;
+	padding-top: 130px;
+	padding-left:121px;
+}
